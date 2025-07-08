@@ -110,3 +110,25 @@ button:active {
   margin-top: 24px;
   min-height: 28px;
 }
+
+@media (max-width: 500px) {
+  .dice {
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .player {
+    padding: 18px 14px;
+  }
+
+  .diceImagesrc {
+    top: 200px;
+    width: 45px;
+  }
+
+  button {
+    width: 100%;
+    padding: 12px;
+  }
+}
+
